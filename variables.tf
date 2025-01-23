@@ -19,6 +19,6 @@ variable "ssh_key" {
   default = ""
 }
 
-# variable "tfstate_bucket" {
-#   type = string
-# }
+variable "tfstate_bucket" {
+  type = string
+}
